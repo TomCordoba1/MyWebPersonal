@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url('fondo.jpg') no-repeat center center fixed;
+    background-size: cover;
+    font-family: 'Century Gothic', sans-serif;
+    color: white;
+    line-height: 1.6;
+}
+
+  /* ===== CABECERA ===== */
+header {
+    text-align: center;
+    padding: 40px 20px 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-bottom: 2px solid #fff;
+}
+
+header h1 {
+    font-size: 42px;
+    letter-spacing: 3px;
+}
+
+header h2 {
+    font-size: 22px;
+    font-weight: 300;
+    margin-top: 10px;
+    color: #ccc;
+}
+
+  /* ===== NAVEGACIÓN ===== */
+nav {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 15px 0;
+    border-bottom: 1px solid #fff;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 0;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 8px 12px;
+    transition: all 0.3s ease;
+    border-radius: 5px;
+}
+
+nav ul li a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    color: #ffcc70;
+}
+
+  /* ===== SECCIÓN IMAGEN PRINCIPAL ===== */
+.box {
+    max-width: 600px;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 30px;
+    text-align: center;
+    margin: 40px auto;
+    border-radius: 20px;
+}
+
+.box-img {
+    width: 180px;
+    border-radius: 50%;
+    border: 3px solid #fff;
+    margin-bottom: 20px;
+}
+
+  /* ===== SECCIONES GENERALES ===== */
+section#sobre-mi,
+section#aptitudes,
+section#contacto {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 25px 30px;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+    font-family: 'Century Gothic', sans-serif;
+}
+
+section#sobre-mi h2,
+section#aptitudes h2,
+section#contacto h2 {
+    font-size: 26px;
+    margin-bottom: 20px;
+    color: #ffcc70;
+    text-align: center;
+}
+
+section#aptitudes ul,
+section#contacto ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 20px;
+    padding: 0;
+}
+
+section#aptitudes ul li {
+    list-style: square inside;
+    line-height: 1.8;
+}
+
+section#contacto p {
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+section#contacto ul li a {
+    color: white;
+    font-size: 30px;
+    transition: all 0.4s ease;
+}
+section#contacto ul li a:hover {
+    color: #ffcc70;
+    transform: scale(1.2);
+}
+
+  /* ===== PIE DE PÁGINA ===== */
+footer {
+    text-align: center;
+    padding: 25px 15px;
+    background: rgba(0, 0, 0, 0.5);
+    font-size: 15px;
+    color: #bbb;
+    margin-top: 40px;
+    border-top: 1px solid #444;
+}
